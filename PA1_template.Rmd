@@ -24,6 +24,8 @@ steps <- aggregate(steps ~ date, dataset, sum)
 hist(steps$steps, main = "Steps taken per day", xlab = "Number of steps", col = "purple", breaks = 8)
 
 ```
+
+
 ## The mean and the median
 
 
